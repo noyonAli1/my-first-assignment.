@@ -170,3 +170,53 @@
     line-height: 20px;
     color: #627382;
 }
+
+
+ /* <!-- third section code start --> */
+.third-main-contaion{
+    margin: auto;
+    width: 1360px;
+    margin-top: 120px;
+}
+ .third-section{
+    display: flex;
+    gap: 60px;
+ }
+ .third-section-img img{
+    width: 600px;
+    height: 600px;
+ }
+.third-section-logo h4{
+  font-size: 16px;
+  color: #469165;
+  margin-top: 120px;
+}
+.third-section-logo h1{
+    font-size: 48px;
+    color: #001931;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.third-section-logo p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+  
+}
+
+ .third-logo{
+    display: flex;
+    margin-top: 9px;
+    
+ }
+ .third-logo p{
+    font-size: 16px;
+    color: #001931;
+
+ }
+ .third-logo img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+ }
+   /* <!-- last section code start --> */
