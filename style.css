@@ -220,3 +220,11 @@
     margin-right: 5px;
  }
    /* <!-- last section code start --> */
+   .fourth-section{
+    width: 1360px;
+    margin: auto;
+    background-color: #627382;
+   }
+   .fourth-item{
+    text-align: center;
+   }
