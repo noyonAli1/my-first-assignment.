@@ -22,7 +22,9 @@
     display: flex;
     gap: 32px;
 }
-
+.navbar ul li:hover a{
+    color: #8d050e;
+}
 .navbar ul>li {
     list-style: none;
 }
@@ -41,6 +43,12 @@
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    transition: 0.5s;
+}
+.nav-btn button:hover{
+background-color: #042c83c7;
+color: #eceeee;
+transition: 0.5s;
 }
 
 
@@ -66,6 +74,7 @@
     color: #469165;
     border-radius: 30px;
     border: none;
+    cursor: pointer;
 }
 
 .hero-btn i {
@@ -96,6 +105,12 @@
     color: #ffffff;
     border: none;
     border-radius: 4px;
+    transition: 0.5s;
+}
+.first-btn:hover{
+    background-color: #fdfefe;
+    color: #001931;
+    transition: 1s;
 }
 
 .second-btn {
@@ -106,6 +121,11 @@
     border-color: #ffffff;
     margin-left: 13px;
     border-radius: 4px;
+    transition: 0.5s;
+}
+.second-btn:hover{
+    background-color: #000203;
+    transition: 1s;
 }
 
 .second-btn i {
@@ -262,6 +282,12 @@
     background-color: #469165;
     border: none;
     color: #ffffff;
+    transition: 0.5s;
+    transition: 0.5s;
+}
+#btn:hover{
+    background-color:#023737 ;
+    transition: 1s;
 }
 .fourth-item button i{
     margin-left: 5px;
