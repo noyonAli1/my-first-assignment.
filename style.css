@@ -147,9 +147,10 @@
     height: 300px;
     margin-top: 44px;
     border-radius: 8px;
-    box-shadow: 5px 5px 9px black ;
+    box-shadow: 5px 5px 9px black;
 }
-.box-img{
+
+.box-img {
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -160,11 +161,13 @@
     margin: auto;
     margin-top: 70px;
 }
-.box-item h3{
+
+.box-item h3 {
     font-size: 24px;
-    padding: 16px 24px ;
+    padding: 16px 24px;
 }
-.box-item p{
+
+.box-item p {
     padding: 16px 24px;
     font-size: 16px;
     line-height: 20px;
@@ -172,59 +175,96 @@
 }
 
 
- /* <!-- third section code start --> */
-.third-main-contaion{
+/* <!-- third section code start --> */
+.third-main-contaion {
     margin: auto;
     width: 1360px;
     margin-top: 120px;
 }
- .third-section{
+
+.third-section {
     display: flex;
     gap: 60px;
- }
- .third-section-img img{
+}
+
+.third-section-img img {
     width: 600px;
     height: 600px;
- }
-.third-section-logo h4{
-  font-size: 16px;
-  color: #469165;
-  margin-top: 120px;
 }
-.third-section-logo h1{
+
+.third-section-logo h4 {
+    font-size: 16px;
+    color: #469165;
+    margin-top: 120px;
+}
+
+.third-section-logo h1 {
     font-size: 48px;
     color: #001931;
     margin-top: 16px;
     margin-bottom: 16px;
 }
-.third-section-logo p{
+
+.third-section-logo p {
     font-size: 16px;
     color: #627382;
     line-height: 20px;
-  
+
 }
 
- .third-logo{
+.third-logo {
     display: flex;
     margin-top: 9px;
-    
- }
- .third-logo p{
+
+}
+
+.third-logo p {
     font-size: 16px;
     color: #001931;
 
- }
- .third-logo img{
+}
+
+.third-logo img {
     width: 20px;
     height: 20px;
     margin-right: 5px;
- }
-   /* <!-- last section code start --> */
-   .fourth-section{
+}
+
+/* <!-- last section code start --> */
+.fourth-section {
     width: 1360px;
     margin: auto;
-    background-color: #627382;
-   }
-   .fourth-item{
+    background-color: #dae3e2;
+    margin-top: 120px;
+}
+
+.fourth-item {
     text-align: center;
-   }
+}
+
+.fourth-item h1 {
+    font-size: 40px;
+    color: #001931;
+    padding-top: 80px;
+}
+.fourth-item p {
+    font-size: 16px;
+    line-height: 24px;
+    color:#627382;
+    margin-top: 16px;
+    margin-bottom: 20px;
+   
+}
+.fourth-item button{
+    font-size: 16px;
+    padding: 16px 16px;
+    background-color: #469165;
+    border: none;
+    color: #ffffff;
+}
+.fourth-item button i{
+    margin-left: 5px;
+}
+.last-item{
+    padding-bottom: 80px;
+}
