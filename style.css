@@ -28,7 +28,7 @@
 }
 
 .navbar ul li:hover a {
-    color: #8d050e;
+    color: #0bc317;
 }
 
 .navbar ul>li {
@@ -53,7 +53,7 @@
 }
 
 .nav-btn button:hover {
-    background-color: #042c83c7;
+    background-color:black;
     color: #eceeee;
     transition: 0.5s;
 }
@@ -67,7 +67,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 674px;
-
 }
 
 .hero-section {
@@ -82,6 +81,12 @@
     border-radius: 30px;
     border: none;
     cursor: pointer;
+     transition: 0.5s;
+}
+.hero-btn:hover{
+    background-color: #0c50be;
+    color: #fdfefe;
+    transition: 0.5s;
 }
 
 .hero-btn i {
@@ -141,9 +146,6 @@
     margin-right: 5px;
 }
 
-
-
-
 .second-item {
     text-align: center;
 }
@@ -158,6 +160,9 @@
     margin-top: 16px;
     color: #627382;
 }
+
+
+ /* <!-- second section kaj start --> */
 
 .box-container {
     margin: auto;
@@ -177,6 +182,11 @@
     margin-top: 44px;
     border-radius: 8px;
     box-shadow: 5px 5px 9px rgb(137, 133, 133);
+    transition: 0.5s;
+}
+.box-item:hover{
+  background-color: #0c50be24;
+  transition: 1s;
 }
 
 .box-img {
@@ -202,7 +212,6 @@
     line-height: 20px;
     color: #627382;
 }
-
 
 /* <!-- third section code start --> */
 .third-main-contaion {
@@ -310,9 +319,6 @@
     padding-bottom: 80px;
 }
 
-
-
-
 /* footer code start */
 
 
@@ -320,7 +326,6 @@ footer {
     width: 100%;
     margin-top: 120px;
     background-color: #001931;
-
 }
 
 .footer-container {
@@ -357,9 +362,6 @@ footer {
     gap: 16px;
 }
 
-
-
-
 .link-style{
     color: black;
     padding: 3px;
@@ -376,3 +378,5 @@ footer {
     font-size: 16px;
     line-height: 24px;
 }
+
+/* alhamdulillah */
