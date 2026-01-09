@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+    /* google font */
 .inter {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -229,6 +229,9 @@
     width: 600px;
     height: 600px;
 }
+.third-section-img{
+    box-shadow: 4px 3px 4px 5px rgba(0, 0, 0, 0.051);
+}
 
 .third-section-logo h4 {
     font-size: 16px;
@@ -369,6 +372,11 @@ footer {
     
     background: white;
     border-radius: 50%;
+}
+.link-style:hover{
+    background-color: #1aba08;
+    color: #FAFAFA;
+    transition: 0.5s;
 }
 
 .footer-last-item {
