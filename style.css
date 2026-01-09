@@ -1,9 +1,13 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-/* navigatoin kaj start */
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
 
 .nav-container {
     width: 85%;
@@ -22,9 +26,11 @@
     display: flex;
     gap: 32px;
 }
-.navbar ul li:hover a{
+
+.navbar ul li:hover a {
     color: #8d050e;
 }
+
 .navbar ul>li {
     list-style: none;
 }
@@ -45,10 +51,11 @@
     cursor: pointer;
     transition: 0.5s;
 }
-.nav-btn button:hover{
-background-color: #042c83c7;
-color: #eceeee;
-transition: 0.5s;
+
+.nav-btn button:hover {
+    background-color: #042c83c7;
+    color: #eceeee;
+    transition: 0.5s;
 }
 
 
@@ -107,7 +114,8 @@ transition: 0.5s;
     border-radius: 4px;
     transition: 0.5s;
 }
-.first-btn:hover{
+
+.first-btn:hover {
     background-color: #fdfefe;
     color: #001931;
     transition: 1s;
@@ -123,7 +131,8 @@ transition: 0.5s;
     border-radius: 4px;
     transition: 0.5s;
 }
-.second-btn:hover{
+
+.second-btn:hover {
     background-color: #000203;
     transition: 1s;
 }
@@ -268,15 +277,17 @@ transition: 0.5s;
     color: #001931;
     padding-top: 80px;
 }
+
 .fourth-item p {
     font-size: 16px;
     line-height: 24px;
-    color:#627382;
+    color: #627382;
     margin-top: 16px;
     margin-bottom: 20px;
-   
+
 }
-.fourth-item button{
+
+.fourth-item button {
     font-size: 16px;
     padding: 16px 16px;
     background-color: #469165;
@@ -285,56 +296,80 @@ transition: 0.5s;
     transition: 0.5s;
     transition: 0.5s;
 }
-#btn:hover{
-    background-color:#023737 ;
-    transition: 1s;
+
+#btn:hover {
+    background-color: #023737;
+    transition: 0.5s;
 }
-.fourth-item button i{
+
+.fourth-item button i {
     margin-left: 5px;
 }
-.last-item{
+
+.last-item {
     padding-bottom: 80px;
 }
 
 
 
 
-  /* footer code start */
+/* footer code start */
 
 
-footer{
+footer {
     width: 100%;
     margin-top: 120px;
     background-color: #001931;
-   
+
 }
-.footer-container{
-width: 1360px;
- margin: auto;
+
+.footer-container {
+    width: 1360px;
+    margin: auto;
 }
-.main-footer{
-     margin: auto;
+
+.main-footer {
+    margin: auto;
     display: flex;
     justify-content: space-between;
-    padding-top:  100px;
+    padding-top: 100px;
     padding-bottom: 80px;
 }
-.footer-img img{
+
+.footer-img img {
     width: 139px;
     height: 60px;
 }
-.footer-item{
-   color: #ffffff; 
-   margin-right: 100px;
+.footer-content{
+    padding: 0 107px 0  0;
 }
-.footer-item p{
+.footer-content p{
+  color: #FAFAFA;
+  margin-bottom: 16px;
   font-size: 20px;
-  margin-bottom: 30px;
 }
-.footer-item i{
-    margin-right: 5px;
+.footer-item {
+    color: #ffffff;
+    display: flex;
+    
+    justify-content: start;
+    align-items: center;
+    gap: 16px;
 }
-.footer-last-item{
+
+
+
+
+.link-style{
+    color: black;
+    padding: 3px;
+    border: none;
+    
+    background: white;
+    border-radius: 50%;
+}
+
+.footer-last-item {
     text-align: center;
     color: #FAFAFA;
     padding: 30px 0px;
